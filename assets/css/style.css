@@ -53,3 +53,77 @@ button.resume_btns {
     align-items: center;
     gap: 10px;
 }
+
+
+/*banner*/
+
+.banner {
+    background-image: url('../images/Hero-bg.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.banner_content>h2 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 62px;
+    /* 141.667% */
+}
+
+.banner_content>p {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 20px;
+}
+
+.banner_boy {
+    width: 150px;
+    margin: auto;
+}
+
+.banner_boy>img {
+    width: 100%;
+}
+
+.banner_hero_auth {
+    text-align: center;
+}
+
+button.contact_me_btns {
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: 8px;
+    background: #0D1321;
+    display: flex;
+    padding: 15px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+
+.inner_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
