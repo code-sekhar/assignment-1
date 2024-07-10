@@ -5,5 +5,51 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 90%;
+    margin: auto;
+}
+
 
 /*Main Header Css*/
+
+.main_header {
+    width: 100%;
+    background-color: #fff;
+    padding: 24px 0px;
+}
+
+.logo_section>a {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.inner_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button.resume_btns {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    background: #fff;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 1;
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
