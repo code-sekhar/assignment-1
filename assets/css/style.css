@@ -238,6 +238,10 @@ button.contact_me_btns {
 
 /*video section*/
 
+.inner_video>iframe {
+    border-radius: 20px;
+}
+
 .video_section_heading>h2 {
     color: #0D1321;
     text-align: center;
