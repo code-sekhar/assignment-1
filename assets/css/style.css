@@ -232,6 +232,7 @@ button.contact_me_btns {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 20px;
 }
 
 .video_section_heading>p {
@@ -261,4 +262,73 @@ button.contact_me_btns {
     width: 958px;
     margin: auto;
     margin-top: 45px;
+}
+
+
+/*My Current Target*/
+
+.my_target_section {
+    margin-top: 40px;
+}
+
+.skill_box {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin: 2rem 0;
+    row-gap: 2rem;
+    margin-bottom: 80px;
+}
+
+.red_card>.inner_skill_card {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.blue_card>.inner_skill_card {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.yellow_card>.inner_skill_card {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.inner_skill_card {
+    display: flex;
+    border-radius: 16px;
+    width: 94%;
+    margin: auto;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.card_contents>h4 {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+    /* 150% */
+}
+
+.card_contents>p {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 20px;
+}
+
+.card_contents>a {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
 }
