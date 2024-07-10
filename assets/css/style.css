@@ -66,6 +66,11 @@ button.resume_btns {
 
 /*banner*/
 
+.con {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .banner {
     background-image: url('../images/Hero-bg.png');
     width: 100%;
