@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Azeret Mono";
 }
 
 .container {
@@ -386,4 +387,94 @@ button.contact_me_btns {
 
 .target_wraper {
     margin-top: 48px;
+}
+
+
+/* I need Support */
+
+.i_need_support_box {
+    background-image: url('../images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 64px 48px;
+    text-align: center;
+    background-position: center;
+    overflow: hidden;
+}
+
+.inner_sp_box>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 112.5% */
+    margin-bottom: 14px;
+}
+
+.inner_sp_box>p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 20px;
+}
+
+.support_form>input {
+    /* display: flex; */
+    width: 448px;
+    padding: 19px 20px;
+    /* align-items: center; */
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    outline: none;
+}
+
+button.custom_fm_btn {
+    /* display: flex; */
+    width: 100px;
+    padding: 17px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 12px;
+}
+
+.i_need_support_box {
+    position: relative;
+}
+
+.i_need_support_box::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: '';
+    background: #0000003d;
+}
+
+.inner_sp_box {
+    position: relative;
+    z-index: 999;
 }
